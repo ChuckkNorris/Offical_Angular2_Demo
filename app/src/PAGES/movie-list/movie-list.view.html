@@ -1,0 +1,5 @@
+<div (window:scroll)="onScroll($event)">
+<div>Movie List!</div>
+
+<movie-item *ngFor='#movie of movieCollection' [movie]="movie"></movie-item>
+</div>
